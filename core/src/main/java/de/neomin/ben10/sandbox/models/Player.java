@@ -28,7 +28,7 @@ public class Player {
 
     public void load() {
 
-        selectedAlien = AlienType.ULTRA_T;
+        selectedAlien = AlienType.XLR8;
 
         state = selectedAlien.getPath() + "_idle_right";
         direction = Direction.RIGHT;
